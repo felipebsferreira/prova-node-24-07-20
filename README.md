@@ -1,3 +1,25 @@
+# 📦 Como baixar e rodar o projeto
+
+```bash
+# Clonar o repositório
+$ git clone https://github.com/felipebsferreira/prova-node-24-07-20
+
+# Entrar no diretório da API
+$ cd prova-node-24-07-20
+
+# Instalar as dependências
+$ npm install
+
+# Executar migrations para criar o banco de dados
+$ npm run migrate
+
+# Iniciar a API
+$ npm run start
+
+# Executar os testes unitários
+$ npm run test
+```
+
 # Prova de Backend
 
 O projeto inicial é um cadastro de usuários em memória muito simples e sem utilizar nenhuma lib. Apesar de o código estar em qualidade baixa, o projeto está funcional. O que se espera é que o candidato melhore este código de uma maneira que possamos avaliar suas habilidades e competências.
